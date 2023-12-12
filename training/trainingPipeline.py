@@ -3,7 +3,9 @@ import os
 from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 from huggingface_hub import login
-login(token='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', add_to_git_credential=True)
+with open("../token.txt", "r") as file:
+    token = file.readline().strip()
+login(token=token, add_to_git_credential=True)
 
 from datasets import DatasetDict
 import hopsworks
