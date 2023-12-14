@@ -1,3 +1,5 @@
 venv
 token.txt
 .git
+.idea
+.DS_Store

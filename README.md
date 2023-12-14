@@ -1,5 +1,4 @@
 
-Describe in your README.md program ways in which you can improve model performance are using
 ### (a) Model-centric approach 
 
 #### Tune hyperparameters:
